@@ -1,0 +1,90 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+body {
+	font-size: 	16px;
+	font-family: Thahoma, Verdana, Helvetica;
+	color: #eee;
+	background-color: #232323;
+}
+
+#stripe {
+	height: 25px;	
+	background-color: #eee;
+	text-align: center;
+}
+
+button {
+	height: 25px;	
+	background-color: #eee;
+	border: none;
+	color: #3B76AD;
+	font-family: Calibri;
+	font-size: 1.0em;
+	line-height: 25px;
+	font-weight: 900;
+	text-transform: uppercase;
+	cursor: pointer;
+	
+}
+
+#stripe button {
+	outline: none;
+}
+
+#stripe button:hover {
+	background-color: #3B76AD;
+	color: #eee;
+}
+
+#message {
+	display: inline-block;
+	width: 100px;
+	margin: 0 20px;
+	color: #232323;
+	font-size: 0.9em;
+	font-weight: 800;
+	font-family: Thahoma, Verdana, Helvetica;
+}
+
+.top-line h2 {
+	font-size: 1.6em;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+#color {
+	font-size: 2.8em;
+	font-weight: 400;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.top-line {
+	height: 130px;	
+	background-color: #3B76AD;
+	text-align: center;
+}
+
+#container {
+	max-width: 500px;
+	margin: 20px auto;
+}
+
+.square {
+	width: 30%;	
+	background-color: white;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20%;
+	cursor: pointer;
+}
+
+.selected {
+	background-color: #3B76AD;
+	color: #eee;
+	outline: none;
+}
